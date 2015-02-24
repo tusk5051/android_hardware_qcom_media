@@ -12,8 +12,6 @@ ifeq ($(VIDC_STUB_HAL),true)
 OMXCORE_CFLAGS += -DVIDC_STUB_HAL
 endif
 
-QCOM_MEDIA_ROOT ?= hardware/qcom/media
-
 #===============================================================================
 #             Figure out the targets
 #===============================================================================
